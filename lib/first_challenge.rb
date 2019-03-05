@@ -12,9 +12,11 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+  
 
   #remember to return your newly altered contacts hash!
   contacts
 end
 
+def look_for_icecream(array)
+  if 
