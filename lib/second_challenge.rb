@@ -5,6 +5,8 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-  groceries.values
+  all_groceries = []
+  groceries.values.each do |list|
+    list.each {|item| all_groceries << item}
+  all_groceries
 end
