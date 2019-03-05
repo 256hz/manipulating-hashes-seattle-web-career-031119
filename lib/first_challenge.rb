@@ -13,10 +13,11 @@ def first_challenge
     }
   }
   
-
+  contacts["Freddy Mercury"].each do |k, v|
+    if k = :favorite_icecream_flavors
+      contacts["Freddy Mercury"].k.delete_if(v == "strawberry")
+    end
+  end
   #remember to return your newly altered contacts hash!
   contacts
 end
-
-def look_for_icecream(array)
-  if 
