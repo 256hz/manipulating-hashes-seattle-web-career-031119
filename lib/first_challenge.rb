@@ -18,6 +18,8 @@ def first_challenge
       contacts["Freddy Mercury"][k].each do |flavor|
         if flavor = "strawberry"
           delete contacts["Freddy Mercury"][k][flavor]
+        end
+      end
     end
   end
   #remember to return your newly altered contacts hash!
