@@ -8,5 +8,6 @@ def second_challenge
   all_groceries = []
   groceries.values.each do |list|
     list.each {|item| all_groceries << item}
+  end
   all_groceries
 end
